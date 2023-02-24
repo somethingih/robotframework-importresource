@@ -1,7 +1,14 @@
-venv/
+# Evnironments
+.venv/
+
+# IDE
 __pycache__/
+
+# Build
+*.egg-info/
+dist/
+
+# Robot Framework
 log.html
 output.xml
 report.html
-*.egg-info/
-dist/
